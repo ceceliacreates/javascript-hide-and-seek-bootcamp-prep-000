@@ -12,3 +12,11 @@ for (let i = 0; i < lis.length; i++) {
   lis[i].innerHTML = parseInt(lis[i].innerHTML) + n
 }
 }
+function deepestChild() {
+  let list = document.querySelectorAll('#grand-node')
+  var currentChild = 0
+  for (let i = 0; i < list.length; i++) {
+    const currentChild = list[i]
+  }
+  return currentChild
+}

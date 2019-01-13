@@ -13,10 +13,10 @@ for (let i = 0; i < lis.length; i++) {
 }
 }
 function deepestChild() {
-  let list = document.querySelectorAll('#grand-node')
+  let list = document.querySelectorAll('#grand-node div')
   var currentChild = 0
   for (let i = 0; i < list.length; i++) {
-    const currentChild = list[i]
+    currentChild = list[i]
   }
   return currentChild
 }
